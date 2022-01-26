@@ -6,4 +6,9 @@ python -m venv venv
 pip install django
 django-admin startproject premiosupsapp
 
+cd premiosupsapp
+python manage.py runserver
+
+python manage.py startapp polls
+
 

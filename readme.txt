@@ -66,4 +66,25 @@ Choice.objects.filter(question__pub_date__year=timezone.now().year())
 
 python manage.py createsuperuser
 
+##########################################################################
 
+Instalar la extension de VSCode
+
+Django
+Baptiste Darthenay
+
+Luego,
+
+Hay que cambiar una configuracion:
+Ctrl+Shift+P
+
+Escribir: 
+settings.json
+
+Seleccionar: Open Settings (JSON)
+
+Y luego añadir en el archivo de configuración:
+
+"emmet.includeLanguages": {
+    "html":"django-html"
+}

@@ -18,3 +18,21 @@ pip install psycopg2
 
 python manage.py makemigrations polls
 python manage.py migrate
+
+python manage.py shell
+
+##########################################################################
+# Importacion de los modelos
+from polls.models import Question, Choice
+
+# Llamado de todos los registros de un modelo
+Question.objects.all()
+
+from django.utils import timezone
+# Creacion de un nuevo registro
+q = Question(question_text="¿Cual es el mejor curso de Platzi?", pub_date=timezone.now())
+
+# Guardado del nuevo registro
+q.save()
+##########################################################################
+

@@ -60,7 +60,7 @@ q.choice_set.create(choice_text='Plataformas Web', votes=0)
 q.choice_set.all()
 q.choice_set.count()
 
-Choice.objects.filter(question__pub_date__year==timezone.now().year())
+Choice.objects.filter(question__pub_date__year=timezone.now().year())
 
 ##########################################################################
 

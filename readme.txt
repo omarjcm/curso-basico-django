@@ -88,3 +88,18 @@ Y luego añadir en el archivo de configuración:
 "emmet.includeLanguages": {
     "html":"django-html"
 }
+
+##########################################################################
+
+Hasta el momento se han utilizado Function Based Views
+
+Tambien existen las Class Based Views (Generic Views).
+Con respecto a estas segundas, se pueden detallar lo siguiente:
+- ListView
+- LoginView
+- LogoutView
+- CreateView
+- UpdateView
+- FormView
+- DeleteView
+
